@@ -29,7 +29,7 @@ run = True
 while run:
 
     option = input('what do you want to convert\n * click 1 for text to morse code converter\n '
-                   '* click 2 for morse code to text converter\n')
+                   '* click 2 for morse code to text converter\n * click x for quit the application\n')
     if option != "x":
         if option == "1":
             text = input("Enter the text ('/' represents space):\n")
